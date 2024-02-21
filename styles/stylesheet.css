@@ -1,0 +1,54 @@
+main
+{
+    border-style:double;
+    text-align:center;
+    border-left:0 10px;
+    border-color:black;
+    margin-left:165px;
+    margin-right:165px; 
+}
+header
+{
+    text-align:center;
+    margin-left:160px;
+    margin-right:160px;
+    padding: 0 10px;
+
+}
+section,
+article,
+footer{
+    text-align:center;
+    margin-left:160px;
+    margin-right:160px;
+    padding: 0 10px;
+}
+
+h1{
+    border-style: double;
+    margin:auto;
+    width:50%;
+}
+.side-menu{
+    position:fixed;
+    width:160px;
+    height:15%;
+    border-style:solid;
+    text-align:center;
+}
+.projects{
+
+
+}
+
+body{
+    background-color:navajowhite;
+}
+.side-ad{ 
+    width:160px;
+    text-align:center;
+    float:right;
+    border-style:solid;
+    height:auto;
+}
+/* figure out how to align element to right side of page */
