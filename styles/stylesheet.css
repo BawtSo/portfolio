@@ -1,12 +1,12 @@
 main
 {
-    border-style:double;
+    border-style:solid;
     text-align:center;
     border-left:0 10px;
     border-right:0 10px;
     border-color:black;
-    margin-left:165px;
-    margin-right:165px; 
+    margin-left:170px;
+    margin-right:170px; 
 }
 header
 {
@@ -16,7 +16,6 @@ header
     padding: 0 10px;
 
 }
-section,
 article,
 footer{
     text-align:center;
@@ -48,9 +47,7 @@ h1{
     margin-right:165px;
 
 }
-.projects{
-float:inline-start;
-}
+
 body{
     background-color:navajowhite;
 }
@@ -60,5 +57,20 @@ body{
     float:right;
     border-style:solid;
     height:auto;
+}
+.right-article{
+    border-style:double;
+    padding:0 10px;
+    margin-left:170px;
+    margin-right:170px;
+}
+.projects{
+    position:static;
+    float:right;
+    text-align:center;  
+    width:160px;
+    height:100%;
+    border-style:solid;
+    
 }
 /* figure out how to align element to right side of page */
