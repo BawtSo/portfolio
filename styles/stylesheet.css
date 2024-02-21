@@ -3,6 +3,7 @@ main
     border-style:double;
     text-align:center;
     border-left:0 10px;
+    border-right:0 10px;
     border-color:black;
     margin-left:165px;
     margin-right:165px; 
@@ -32,19 +33,28 @@ h1{
 .side-menu{
     position:fixed;
     width:160px;
-    height:15%;
+    height:95%;
     border-style:solid;
     text-align:center;
 }
-.projects{
+.doggos
+{
 
+    background-color:black;
+    border-style:solid;
+    border-color:white;
+    padding: 0 10px;
+    margin-left:165px;
+    margin-right:165px;
 
 }
-
+.projects{
+float:inline-start;
+}
 body{
     background-color:navajowhite;
 }
-.side-ad{ 
+.side-ad{
     width:160px;
     text-align:center;
     float:right;
