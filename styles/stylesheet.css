@@ -7,6 +7,7 @@ main
     border-color:black;
     margin-left:170px;
     margin-right:170px; 
+    
 }
 header
 {
@@ -30,47 +31,53 @@ h1{
     width:50%;
 }
 .side-menu{
-    position:fixed;
+    float:left;
     width:160px;
-    height:95%;
-    border-style:solid;
+    height:100%;
     text-align:center;
+    position:fixed;
+    
 }
 .doggos
 {
 
     background-color:black;
     border-style:solid;
-    border-color:white;
     padding: 0 10px;
-    margin-left:165px;
-    margin-right:165px;
+    margin-left:170px;
+    margin-right:170px;
 
 }
 
 body{
+    border-style:solid;
+    margin-left:auto;
+    margin-right:auto;
+    width:1440px;
     background-color:navajowhite;
 }
 .side-ad{
+    background-color:rgb(199, 194, 151);
     width:160px;
     text-align:center;
     float:right;
-    border-style:solid;
+    border-style:dashed;
     height:auto;
 }
 .right-article{
+    float:right;
     border-style:double;
     padding:0 10px;
     margin-left:170px;
     margin-right:170px;
 }
 .projects{
-    position:static;
-    float:right;
-    text-align:center;  
-    width:160px;
-    height:100%;
-    border-style:solid;
-    
+    margin-left:170px;
+}
+a:hover[href = "index.html"]{
+    background-color:red;
+}
+a:hover[href="about-me.html"]{
+    background-color:blue;
 }
 /* figure out how to align element to right side of page */
