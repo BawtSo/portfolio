@@ -1,0 +1,33 @@
+body{
+    border-style:solid;
+    margin-left:auto;
+    margin-right:auto;
+    width:1440px;
+    background-color:navajowhite;
+}
+main{
+    border-style:solid;
+    margin-left:170px;
+    margin-right:170px;
+}
+.main-img{
+    display:block;
+    margin-left:auto;
+    margin-top:1%;
+    margin-right:auto;
+    width:50%;
+    border-style:solid;
+}
+.side-menu
+{
+    float:left;
+    width:160px;
+    height:100%;
+    text-align:center;
+    position:fixed;
+
+}
+footer{
+    text-align:center;
+    color:
+}
