@@ -83,4 +83,13 @@ a:hover[href="about-me.html"]{
 .square-list{
     list-style-type:square;
 }
+#my-projects{
+    margin-right:160px;
+    text-align:center;
+    text-decoration: underline;
+}
+h3,
+h2{
+    text-decoration:underline;
+}
 /* figure out how to align element to right side of page */
