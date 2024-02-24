@@ -9,6 +9,7 @@ main{
     border-style:solid;
     margin-left:170px;
     margin-right:170px;
+    padding:0 10px;
 }
 .main-img{
     display:block;
@@ -30,6 +31,8 @@ main{
 footer{
     text-align:center;
 }
-#my-projects{
-    text-align:center;
+h1,
+h3{
+    text-decoration:underline;
 }
+
