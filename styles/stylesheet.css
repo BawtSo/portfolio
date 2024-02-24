@@ -14,7 +14,7 @@ header
     text-align:center;
     margin-left:160px;
     margin-right:160px;
-    padding: 0 10px;
+    padding: 0 1rem;
 
 }
 article,
@@ -79,5 +79,8 @@ a:hover[href = "index.html"]{
 }
 a:hover[href="about-me.html"]{
     background-color:blue;
+}
+.square-list{
+    list-style-type:square;
 }
 /* figure out how to align element to right side of page */
