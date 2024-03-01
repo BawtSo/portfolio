@@ -1,73 +1,95 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang= "en">
 <head>
     <meta charset= "utf-8">
     <title>What are Semantic Elements? </title>
+    <link rel="stylesheet" type="text/css" href="styles/semantic-styles.css">
+
 </head>
 <body>
+
+    <nav class ="side-menu">
+        <h3><u>Navigation</u></h3>
+        <a href="index.html">Main page</a><br>
+        <a href="about-me.html"> About me</a>
+    </nav> 
         <header>
-            <img src= "images/htmlCode.webp" width ="888" height ="155" alt ="Picture of Semantic elements"> 
-            <nav>
-                <a href="index.html">Main page</a><br>
-                <a href="about-me.html"> About me</a>
-            </nav> 
-            <h1>What are <mark>Semantic Elements?</mark></h1>
-                <p>Semantic elements are tags of code that help developers format a webpage.</p>
+            <img class ="main-img" src= "images/htmlCode.webp" width ="888" height ="155" alt ="Picture of Semantic elements"> 
+            <div class="main-title">
+                <h1>What are <mark>Semantic Elements?</mark></h1>
+                <p> Semantic elements are tags of code that help developers format a webpage.</p>
+                <h2>What are the different types off semantic elements?</h2>
+            </div>
         </header>
         <main>
-                <h2>What are the different types off semantic elements?</h2>
-                    <section>
-                        <h3>Header</h3>
-                        <p>The header is the introductory content for the information being provided </p>
+                    <section class="container">
+                        <div class="box">
+                            <h3>Header</h3>
+                            <p>The header is the introductory content for the information being provided </p>
+                        </div>
+                        <div class="box">
+                            <h3>Footer</h3>
+                            <p>Footer provides the information about the page creation, relative information about the owner, and policies the content is covered by</p>
+                        </div>           
+                        <div class="box">
+                            <h3>Section</h3>
+                            <p>An element which contains information related to the content of the page</p>
+                        </div>               
+                        <div class="box">
+                            <h3>Article</h3>
+                            <p>An element that contains information that can be independently used outside the scope of the page  </p>
+                        </div>
+                        <div class="box">
+                            <h3>Nav</h3>
+                            <p>Nav is an element on a page that provides navigation links</p>
+                        </div>
                     </section>
-                    <section>
-                        <h3>Footer</h3>
-                        <p>Footer provides the information about the page creation, relative information about the owner, and policies the content is covered by</p>
-                    </section>
-                    <section>
-                        <h3>Section</h3>
-                        <p>An element which contains information related to the content of the page</p>
-                    </section>
-                    <section>
-                        <h3>Article</h3>
-                        <p>An element that contains information that can be independently used outside the scope of the page  </p>
-                    </section>
-                    <section>
-                        <h3>Nav</h3>
-                        <p>Nav is an element on a page that provides navigation links</p>
-                    </section>
-                    
+        </main>     
+        <!--<aside class="program-choice">
+            <h2>What are the different types of programming languages?</h2>
+                <nav>   
+                  <ol>
+                    <li><a href="https://www.w3schools.com/cs/cs_intro.php">C#</a></li>
+                    <li><a href="https://www.w3schools.com/python/python_intro.asp">Python</a></li>
+                    <li><a href="https://www.w3schools.com/cpp/cpp_intro.asp">C++</a></li>
+                    <li><a href="https://www.w3schools.com/java/java_intro.asp">Java</a></li>
+                    <li><a href="https://www.w3schools.com/whatis/whatis_js.asp">JavaScript</a></li>
+                 </ol>
+ 
+                </nav>
+        </aside>-->
+        <article>
+            <h2 style="text-align:center">What are the other programming languages?</h2>
+            <section class="container">
+                <a class="box"href="https://www.w3schools.com/cs/cs_intro.php">C#</a>
+                <a class="box"href="https://www.w3schools.com/python/python_intro.asp">Python</a>
+                <a class="box"href="https://www.w3schools.com/cpp/cpp_intro.asp">C++</a>
+                <a class="box"href="https://www.w3schools.com/whatis/whatis_js.asp">JavaScript</a>
+                <a class="box"href="https://www.w3schools.com/java/java_intro.asp">Java</a>
+                
+            </section>
+            <section style="text-align:center;">
+                <p>Which language would prefer to learn first?</p>
+                <input list = "lang-option" onfocus = "this.value=``" onchange ="this.blur();">    
+                <datalist id = "lang-option">
+                    <option value = "C#"></option>   
+                    <option value = "Python"> </option>    
+                    <option value = "C++"></option>
+                    <option value = "Java"></option>
+                    <option value = "JavaScript"></option>
+                </datalist>
+            </section>
+        </article> 
             <article>
                 <h2> What is a webpage?</h2>
                     <p>A webpage is a collection of information under a specific domain on the World Wide Web. -- follows a specific format in creation</p>
             </article>
-            <aside>
-                    <h2>What are the different types of programming languages?</h2>
-                        <nav>   
-                          <ol>
-                            <li><a href="#">C#</a></li>
-                            <li><a href="#">Python</a></li>
-                            <li><a href="#">C++</a></li>
-                            <li><a href="#">Java</a></li>
-                            <li><a href="#">JavaScript</a></li>
-                         </ol>
-                         <p>Which language would prefer to learn first?</p>
-                         <input list = "lang-option" onfocus = "this.value=``" onchange ="this.blur();">    
-                         <datalist id = "lang-option">
-                             <option value = "C#"></option>   
-                             <option value = "Python"> </option>    
-                             <option value = "C++"></option>
-                             <option value = "Java"></option>
-                             <option value = "JavaScript"></option>
-                         </datalist>
-                        </nav>
-              </aside>
+
               <details>
                 <summary>
                     Semantic elements are an expanded definition of elements used in HTML5, which is the most recent markup language constructed for creating html documents. Semantic elements are tags of code that help the user and developer identify the type of information being used when creating an html document. These elements are used in a format that help build and structure a webpage. The benefit of using semantic elements is the concise definition each tag provides for the information being passed.
                 </summary>
             </details>
-        </main><br>
 
         <footer>
             <a href = "index.html">Back to Main Page</a><br>
