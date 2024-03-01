@@ -57,11 +57,9 @@ body{
     background-color:navajowhite;
 }
 .side-ad{
-    background-color:rgb(199, 194, 151);
     width:160px;
     text-align:center;
     float:right;
-    border-style:dashed;
     height:auto;
 }
 .right-article{
