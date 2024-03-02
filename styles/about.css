@@ -4,14 +4,14 @@ body{
     margin-right:auto;
     width:1400px;
     background-color:blanchedalmond;
+    border-style:solid;
 }
 .side-menu{
     float:left;
     text-align:center;
     position:fixed;
     width:160px;
-    background-color:lightgrey;
-    border-style:solid;
+    border-right:solid;
 }
 
 main,

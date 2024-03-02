@@ -1,11 +1,10 @@
 body{
-    border-style:solid;
+    font-family:"Montserrat", sans-serif;
     margin-left:auto;
     margin-right:auto;
-    width:1440px;
-    background-color:navajowhite;
-    font-family:sans-serif;
-    
+    width:1400px;
+    background-color:blanchedalmond;
+    border-style:solid;
 }
 main,
 header,
@@ -34,9 +33,10 @@ summary
 {
     float:left;
     width:160px;
-    height:100%;
     text-align:center;
     position:fixed;
+    border-right:solid;
+
 
 }
 footer{
