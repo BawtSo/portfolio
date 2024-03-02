@@ -59,7 +59,7 @@ h3{
     width:200px;
     height:200px;
     text-align:center;
-
+    background-color:white;
 }
 /*.program-choice{
     float:right;
@@ -71,4 +71,9 @@ h3{
 footer,
 article{
     margin-top:5%;
+}
+.sem-ele{
+    width: 180px;
+    height:180px;
+    padding-top:1%;
 }
