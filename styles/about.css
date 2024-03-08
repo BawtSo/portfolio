@@ -54,10 +54,10 @@ article{
 .side-ad{
     width:160px;
     text-align:center;
-    float:right;
     height:fit-content;
-    background-color:lightgrey;
-    border-style:solid;
+    border-left:solid;
+    position:fixed;
+    right:7.2em;
 
 }
 h1,
