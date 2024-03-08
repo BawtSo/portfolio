@@ -106,7 +106,7 @@ footer{
     
 }
 /*Psuedo selectors*/
-p:first-letter{
+p::first-letter{
     font-size:200%;
     font-weight:bold;
     font-family:"Biorhyme Expanded", sans-serif;
