@@ -105,4 +105,6 @@ a:hover[href = "index.html"]
 .box:hover{
     border:groove 6px;
     border-color:black;
+    margin:5px;
+    transition: .1s ease-in-out;
 }
