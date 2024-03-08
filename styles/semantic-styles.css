@@ -1,10 +1,16 @@
 body{
     font-family:"Montserrat", sans-serif;
-    margin-left:auto;
+    margin-left:10%;
     margin-right:auto;
+    padding-top:5%;
     width:1400px;
+    background-color:grey;
+}
+.main-border
+{
     background-color:blanchedalmond;
     border-style:solid;
+
 }
 main,
 header,
@@ -14,7 +20,6 @@ summary
     margin-left:170px;
     margin-right:170px;
     padding: 0 10px;
-    margin-top:5%;
 }
 
 .main-title{
@@ -23,10 +28,10 @@ summary
 .main-img{
     display:block;
     margin-left:auto;
-    margin-top:1%;
     margin-right:auto;
     width:50%;
     border-style:solid;
+    margin-top:1%;
 
 }
 .side-menu
@@ -36,8 +41,9 @@ summary
     text-align:center;
     position:fixed;
     border-right:solid;
-
-
+}
+a{
+    text-decoration:none;
 }
 footer{
     text-align:center;
@@ -49,7 +55,7 @@ h3{
 .container{
     display:flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left:auto;
     margin-right:auto;
 
@@ -57,7 +63,7 @@ h3{
 .box{
     border-style:solid;
     width:200px;
-    height:200px;
+    height:210px;
     text-align:center;
     background-color:white;
 }
@@ -83,6 +89,27 @@ footer{
     color:white;
     text-align:center;
     padding-top:10%;
-    border-style:solid;
+    border-top:black solid;
     margin-top:2%;
+}
+/*Pseudo*/
+a:hover{
+    font-size:125%;
+    font-weight:bold;
+    transition:ease-in-out .2s;
+    text-decoration:underline;
+}
+a:visited{
+    color:black;
+    text-decoration:none;
+}
+
+a:hover[href="about-me.html"],
+a:hover[href = "index.html"]
+{
+    background-color:yellow;
+}
+.box:hover{
+    border:groove 6px;
+
 }
